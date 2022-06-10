@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amaranth&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e55f556837.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/question.css">
+    <title>CBT Login</title>
+</head>
+<body>
+
+<!--This is the beginning of the document-->
+
+                <!-- The navbar starts here -->
+        <nav class="navbar navbar-light  col-12" style="background-color: purple !important;" >
+            <div class="container-fluid">
+                <a class="navbar-brand" style="color: #fff !important;">ARC 212 &nbsp; <span id="timeLeft"></span></a>
+                
+                <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+                <!-- The navbar ends here -->
+
+
+                <!-- ------------------------------------
+                -----------------------------------------
+                -------------------------------------- -->
+
+                <!-- The body starts here -->
+        <div class="container">
+
+                <!-- The logo starts here -->
+            <img src="images/uniben logo.png" id="logo" alt="" title="" class="mb-4 mt-2 rounded mx-auto d-block img-fluid" style="width: 150px;">
+               
+                <!-- The logo ends here -->
+
+                <!-- The question starts here -->
+            <div id="question">
+
+            </div>
+                <!-- The question ends here -->
+
+                <!-- The options starts here -->
+            <div id="options">
+
+            </div>
+                <!-- The options ends here -->
+            <div id="timeUp" class="text-center">
+                <h1>TIME'S UP!</h1>
+            </div>
+
+                <!-- The result display is here -->
+            <h1 id="scoreHolder" class="text-center col-12"></h1>
+                <!-- The result display ends here -->
+
+                <!-- The buttons starts here -->
+            <div id="button" class=" col-12 d-flex">
+                <button class="btn btn-primary mx-3 " type="submit" id="btn2">PREVIOUS</button>
+                <button class="btn btn-primary mx-3 " type="submit" id="btn">NEXT</button>
+                <button class="btn btn-primary mx-3" type="submit" id="btn3" >SUBMIT</button>
+                <button class="btn btn-primary mx-3" type="submit" id="btn4" onclick="window.print()" >PRINT</button>
+            </div>
+                <!-- The buttons end here -->
+        </div>
+
+
+
+   
+    <link rel="stylesheet" href="bootstrap/js/bootstrap.min.js">
+    <script src="./js/questions.js"></script>
+</body>
+</html>

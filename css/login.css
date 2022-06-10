@@ -1,0 +1,41 @@
+body{
+    /* background-color: purple; */
+
+    background-image: url(../images/UNIBEN-MAIN-GATE.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    background-color: rgba(225, 225, 225, 0.5);
+    background-blend-mode: lighten;
+}
+
+
+.container{
+    margin-top: 60px;
+    border: 5px solid purple;
+    box-shadow:3px 4px 10px purple;
+    width: 520px;
+    /* margin: auto; */
+    /* box-shadow: 2px 3px 10px rgb(128, 0, 128);; */
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+
+}
+/* .form-control{
+    width: 470px;
+
+} */
+.btn-primary{
+    
+    background-color: purple !important;
+}
+#errorMessage{
+    color: purple;
+}
+.form-control{
+    border-radius: 5px;
+    border: 1px solid purple;
+    padding: 5px;
+}

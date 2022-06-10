@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amaranth&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e55f556837.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/login.css">
+    <title>CBT Login</title>
+</head>
+<body>
+
+    <!-- This is the begining of the document      -->
+  <div class="container col-12">
+    
+
+    <!-- ------------------------------------
+    -----------------------------------------
+    -------------------------------------- -->
+    <!-- This logo section starts here-->
+
+    <img src="images/uniben logo.png" alt="" title="" class="mb-4 mt-2 rounded mx-auto d-block img-fluid" style="width: 150px;">
+    
+    <!-- The logo section ends here -->
+    <!-- ------------------------------------
+    -----------------------------------------
+    -------------------------------------- -->
+    <!-- The login form starts here -->
+    <form class="" method="post" id="myForm">
+               <!-- ------------------------------------
+                -----------------------------------------!-->
+
+             <!-- The  errorMessage starts here -->
+           <div class="text-center" id="errorMessage"></div>
+             <!-- The  errorMessage starts here -->
+                
+            <!-- The Email Input starts here -->
+          <div class="mb-3  mx-auto ">
+            <label for="inputEmail" class="form-label">Email address</label>
+            <input type="email" placeholder="Example@email.com" class="form-control" id="inputEmail" required>
+          </div>
+             <!-- The Email Input Ends here -->
+
+             
+
+             <!-- The ExamID Input starts here -->
+          <div class="mb-3  mx-auto">
+            <label for="inputExamId" class="form-label">Exam ID</label>
+            <input type="password" placeholder="ENV1504113 " class="form-control" id="inputExamId" required minlength="8">
+          </div>
+      <!-- The ExamID Input Ends here -->
+
+      <!-- The Login Button starts here -->
+          <div class="d-grid gap-2  mx-auto mt-">
+              <button class="btn btn-primary" type="submit" id="btn">Login</button>
+              <!-- <a class="btn btn-primary" href="" id="btn" role="button">Login</a> -->
+          </div>
+      <!-- The Login Button starts here -->
+    
+    </form>
+   
+      <p class="text-center mt-3 ">Created By Ochuko West</p>
+  </div>
+   
+    <link rel="stylesheet" href="bootstrap/js/bootstrap.min.js">
+    <script src="./js/Login.js"></script>
+</body>
+</html>
