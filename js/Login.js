@@ -1,6 +1,5 @@
 // DECLARATION OF VARIABLES
 const errorMessage = document.getElementById('errorMessage')
-const errorMessage1 = document.getElementById('errorMessage1')
 const myForm = document.getElementById('myForm')
 const inputEmail = document.getElementById('inputEmail')
 const inputExamId = document.getElementById('inputExamId')

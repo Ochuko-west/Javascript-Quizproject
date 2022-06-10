@@ -205,7 +205,7 @@ btn3.addEventListener('click', submitValidate)
         btn3.style.display = 'none'
        
         btn4.style.display = 'block'
-        scoreHolder.innerHTML = `<h1>Your score is ${score}/${ArrayOfQuestions.length * 20}</h1>`
+        scoreHolder.innerHTML = `<h1>Your score is ${score}/${ArrayOfQuestions.length * 10}</h1>`
         scoreHolder.style.fontSize = '20px'
         scoreHolder.style.padding= '30px'
     }
@@ -213,7 +213,7 @@ btn3.addEventListener('click', submitValidate)
 
 
 // DECLARE TIME VARIABLES
-let totalTime = 80;
+let totalTime = 60;
 let min = 0;
 let sec = 0;
 let counter = 0;
@@ -243,10 +243,10 @@ if(counter === totalTime){
     btn.style.display = 'none'
     btn2.style.display = 'none'
     btn3.style.display = 'none'
-    scoreHolder.innerHTML = `<h1>Your score is ${score}/${ArrayOfQuestions.length * 20}</h1>`
+    scoreHolder.innerHTML = `<h1>Your score is ${score}/${ArrayOfQuestions.length * 10}</h1>`
     scoreHolder.style.fontSize = '20px'
     scoreHolder.style.padding= '30px'
-    scoreHolder.style.color = 'red'
+    scoreHolder.style.color = 'purple'
     btn4.style.display = 'block'
 }
 }
