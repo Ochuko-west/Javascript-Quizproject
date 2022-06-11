@@ -9,7 +9,7 @@ body{
     background-image: url(../images/UNIBEN-MAIN-GATE.jpg);
     background-repeat: repeat;
     background-size: cover;
-    background-color: rgba(225, 225, 225, 0.5);
+    background-color: rgba(225, 225, 225, 0.7);
     background-blend-mode: lighten;
     
 }
@@ -19,9 +19,9 @@ body{
 
 .container{
     margin-top: 60px;
-    border: 5px solid purple;
-    box-shadow:3px 4px 10px purple;
-    width: 520px;
+    border: 3px solid purple;
+    box-shadow:3px 3px 6px purple;
+    width: 320px;
     /* margin: auto; */
     /* box-shadow: 2px 3px 10px rgb(128, 0, 128);; */
     background-color: white;

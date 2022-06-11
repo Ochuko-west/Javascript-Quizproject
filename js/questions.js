@@ -206,8 +206,9 @@ btn3.addEventListener('click', submitValidate)
        
         btn4.style.display = 'block'
         scoreHolder.innerHTML = `<h1>Your score is ${score}/${ArrayOfQuestions.length * 10}</h1>`
-        scoreHolder.style.fontSize = '20px'
+        scoreHolder.style.fontSize = '30px'
         scoreHolder.style.padding= '30px'
+        scoreHolder.style.color= 'purple'
     }
     submitValidate 
 
@@ -244,7 +245,7 @@ if(counter === totalTime){
     btn2.style.display = 'none'
     btn3.style.display = 'none'
     scoreHolder.innerHTML = `<h1>Your score is ${score}/${ArrayOfQuestions.length * 10}</h1>`
-    scoreHolder.style.fontSize = '20px'
+    scoreHolder.style.fontSize = '30px'
     scoreHolder.style.padding= '30px'
     scoreHolder.style.color = 'purple'
     btn4.style.display = 'block'
