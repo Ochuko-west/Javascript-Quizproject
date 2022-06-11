@@ -7,9 +7,9 @@ body{
     /* background-color: purple; */
 
     background-image: url(../images/UNIBEN-MAIN-GATE.jpg);
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgba(225, 225, 225, 0.7);
+    background-color: rgba(225, 225, 225, 0.8);
     background-blend-mode: lighten;
     
 }
