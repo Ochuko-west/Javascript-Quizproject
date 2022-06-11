@@ -214,7 +214,7 @@ btn3.addEventListener('click', submitValidate)
 
 
 // DECLARE TIME VARIABLES
-let totalTime = 60;
+let totalTime = 120;
 let min = 0;
 let sec = 0;
 let counter = 0;
