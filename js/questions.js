@@ -87,7 +87,7 @@
     const options = document.getElementById('options')
     const button = document.getElementById('button')
     const btn = document.getElementById('btn')
-    const btn2 = document.getElementById('btn2')
+    
     const btn3 = document.getElementById('btn3')
     const timeLeft = document.getElementById('timeLeft')
     const timeUp = document.getElementById('timeUp')
@@ -180,18 +180,6 @@
     validation
 
 
-
-// ADD EVENTLISTENER TO THE PREVIOUS BUTTON
-btn2.addEventListener('click', validatePrevious)
-
-    //CREATE A FUNCTION FOR PREVIOUS BUTTON
-    function validatePrevious() {
-            questions--
-            generateQuestions()
-                 
-    }
-    validatePrevious
-
 // ADD EVENTLISTENER TO THE SUBMIT BUTTON
 btn3.addEventListener('click', submitValidate)
 
@@ -201,7 +189,7 @@ btn3.addEventListener('click', submitValidate)
         options.style.display = 'none'
         button.style.display = 'none'
         btn.style.display = 'none'
-        btn2.style.display = 'none'
+      
         btn3.style.display = 'none'
        
         btn4.style.display = 'block'
@@ -242,7 +230,7 @@ if(counter === totalTime){
     options.style.display = 'none'
     button.style.display = 'none'
     btn.style.display = 'none'
-    btn2.style.display = 'none'
+   
     btn3.style.display = 'none'
     scoreHolder.innerHTML = `<h1>Your score is ${score}/${ArrayOfQuestions.length * 10}</h1>`
     scoreHolder.style.fontSize = '30px'

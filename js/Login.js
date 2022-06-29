@@ -5,36 +5,45 @@ const inputEmail = document.getElementById('inputEmail')
 const inputExamId = document.getElementById('inputExamId')
 const loginButton = document.getElementById('btn')
 
+
+
+
+
 //ADD EVENT LISTENER
 myForm.addEventListener('click', validation)
 
-Num = [0,1,2,3,4,5,6,7,8,9]
+
 //CREATE A FUNCTION FOR FORM VALIDATION
 function validation(e) {
     //PREVENT DEFAULT SUBMIT ACTION
     e.preventDefault();
-    // console.log('are,you,working');
+    console.log(e);
     //CREATE AN ARRAY OF ERROR 
     let message = []
-    //SPECIFY A CONDITION AND ERROR MESSAGE TO BE DISPLAYED
+    //SPECIFY A CONDITION FOR VALIDATION AND ERROR MESSAGE TO BE DISPLAYED
     if (inputEmail.value === '') {
         message.push("Please Input Your Email Address")
+        inputEmail.style.color = 'red'
     } 
     
     if (inputExamId.value === '') {
         message.push("Please input your ExamID")
+
+    } 
+    if (!Number(inputExamId.value)) {
+        message.push("Your ExamID must be digits")
+
     } 
     if (inputExamId.value.length < 8) {
-        message.push("must be at least 8 characters")
+        message.push(" ExamID must be at least 8 characters")
     } 
-    // if (inputExamId.value != Number) {
-    //     message.push("ExamID must be numbers")
-    // }
+    
     if (message.length > 0) {
         errorMessage.innerText = message.join(', ')
         // errorMessage1.innerText = message.join(',')
         
     }
+    
     else{
             nextpage()
     }
